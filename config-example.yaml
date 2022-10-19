@@ -1,0 +1,13 @@
+---
+server: 192.158.1.38
+user: user
+password: password
+forwards:
+  # First service
+  - local-ip: 0.0.0.0
+    local-port: 8096
+    server-port: 8096
+  # Second service
+  - local-ip: 0.0.0.0
+    local-port: 32400
+    server-port: 32400
